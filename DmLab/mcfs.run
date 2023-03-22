@@ -1,0 +1,73 @@
+#############################
+### Experiment Parameters ###
+#############################
+verbose = false
+inputFilesPATH = .//data//
+#file type: adx or arff
+inputFileName = ['your_file_name']
+
+#######################
+### MCFS Parameters ###
+#######################
+# if empty then random seed
+mcfs.seed = 2022
+mcfs.progressShow = false
+mcfs.threadsNumber = 8
+# 1 - default; 2 - two-stage feature selection (recommended for colNum > 5000)
+mcfs.mode = 1
+
+mcfs.buildID = true
+mcfs.finalRuleset = true
+mcfs.finalCV = true
+mcfs.finalCVSetSize = 1000
+
+# available methods: 'mean', 'criticalAngle', 'kmeans', 'contrast', 'permutations'. Recommended value is 'permutations'. 
+mcfs.cutoffMethod = permutations
+# parameters for cutoff permutations method (recommended is at least 20). If 0 then 'permutations' method is turned off.
+mcfs.cutoffPermutations = 20
+
+mcfs.featureFreq = 100
+# mcfs.projections(s) recommended value is 'auto'.
+mcfs.projections = auto
+# mcfs.projectionSize(m) recommended value is 'auto'. If projectionSize < 1 then it denotes fraction of input features. If projectionSize >= 1 it denotes number of objects.
+mcfs.projectionSize = auto
+# Balance class size for highly imbalanced data sets. Recommended value is 'auto'. If 'mcfs.balance = 1' then balancing is turned off. If greater than 1 (e.g. 2 or 3) it changes concentration of classes.
+mcfs.balance = auto
+
+# mcfs.splits(t) recommended value is 5
+mcfs.splits = 5
+# if mcfs.splitSetSize = 0 then limitation is turned off.
+mcfs.splitSetSize = 500
+
+###############################################
+### MCFS Experimental & Default Parameters  ###
+###############################################
+resFilesPATH = .//results//
+#models: auto(default), j48, m5, adx, sliq
+mcfs.model = auto
+mcfs.progressInterval = 10
+mcfs.splitRatio = 0.66
+mcfs.u = 1
+mcfs.v = 1
+mcfs.cutoffAlpha = 0.05
+mcfs.cutoffAngle = 0.01
+mcfs.contrastSize = 0.1
+mcfs.contrastCutoff = 0.05
+mcfs.projectionSizeMax = 1000
+mcfs.finalCVRepetitions = 3
+mcfs.finalCVfolds = 10
+mcfs.zipResult = true
+
+#############################################
+### specific configuration of classifiers ###
+#############################################
+# denotes distance between two nodes to consider them as the connection
+j48.maxConnectionDepth = 5
+# if useGainRatio = false algorithm uses information gain to calculate RI for j48
+j48.useGainRatio = true
+# if useComplexQuality = false algorithm uses only SelectorQuality RI for ADX
+adx.useComplexQuality = true
+# calculation of q for ADX RI 0:p-n  1:(p-n)*(1-n) 2:(p-n)*(1-n)^2  3:max_pos 4:min_neg 5:p*n
+adx.qMethod = 2
+# if useDiversityMeasure = false algorithm uses goodnessOfSplit to calculate SI for sliq
+sliq.useDiversityMeasure = true
