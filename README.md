@@ -24,7 +24,7 @@ We develop a machine learning model called Seq-RBPPred, mainly using XGBoost[1] 
 
 # Contact
 
-Contact:[Huang Tao](http://www.sinh.cas.cn/rcdw/qnyjy/202203/t20220310_6387862.html ),Yan Yuyao
+Contact:[Yuyao Yan](18853818507@163.com)
 
 # References
 
