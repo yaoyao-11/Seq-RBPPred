@@ -6,7 +6,7 @@ import pandas as pd
 tokenizer = ESMTokenizer.from_pretrained("facebook/esm-1b", do_lower_case=False )
 model = ESMForMaskedLM.from_pretrained("facebook/esm-1b")
 
-file="yaoyao-11/Seq-RBPpred/data/test_NonRBPs_522.fasta"
+file="yaoyao-11/Seq-RBPpred/data/EuRBPDB_PDB_Data/test_NonRBPs_522.fasta"
 # file="yaoyao-11/Seq-RBPpred/data/test_RBPs_2122.fasta"
 # file="yaoyao-11/Seq-RBPpred/data/train_RBPs_4243.fasta"
 # file="yaoyao-11/Seq-RBPpred/data/train_NonRBPs_1043.fasta"
