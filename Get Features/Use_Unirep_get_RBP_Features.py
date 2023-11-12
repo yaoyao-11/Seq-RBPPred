@@ -1,5 +1,5 @@
 #! /usr/local/env python
-
+## You should get Unirep code from https://github.com/churchlab/UniRep.
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 
