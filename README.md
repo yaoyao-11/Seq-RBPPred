@@ -34,14 +34,14 @@ Contact:[Huang Tao](http://www.sinh.cas.cn/rcdw/qnyjy/202203/t20220310_6387862.h
 
 # References
 
-1. Chen, T. and C.Guestrin. *Xgboost: A scalable tree boosting system*. in *Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining*.2016.
-2. Zheng, J., et al., *Deep-RBPPred: Predicting RNA bindingproteins in the proteome scale based on deep learning.* Scientific Reports,2018. **8**(1): p. 15264.
+1. Chen, T. and C.Guestrin. Xgboost: A scalable tree boosting system. in Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining.2016.
+2. Zheng, J., et al., Deep-RBPPred: Predicting RNA bindingproteins in the proteome scale based on deep learning. Scientific Reports,2018. **8**(1): p. 15264.
 3. Liao, J.-Y., et al., EuRBPDB: a comprehensive resource for annotation, functional and oncological investigation of eukaryotic RNA binding proteins (RBPs). Nucleic Acids Research, 2020. **48**(D1): p. D307-D313.
 4. Berman, H.M., et al., The Protein Data Bank. Nucleic Acids Research, 2000. **28**(1): p. 235-242.
 5. Wang, G. and R.L. Dunbrack, Jr., PISCES: a protein sequence culling server. Bioinformatics, 2003. 19(12): p. 1589-91.
-6. Li, W. and A. Godzik, *Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences.* Bioinformatics,2006. **22**(13): p. 1658-9.
+6. Li, W. and A. Godzik, Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences. Bioinformatics,2006. **22**(13): p. 1658-9.
 7. Xiao, N., et al., protr/ProtrWeb: R package and web server for generating various numerical representation schemes of protein sequences. Bioinformatics, 2015. **31**(11): p.1857-9.
-8. Alley, E.C., et al., *Unified rational protein engineering with sequence-based deep representation learning.* Nature Methods, 2019. **16**(12): p. 1315-1322.
-9. Heinzinger, M., et al., *Modeling aspects of the language of life through transfer-learning protein sequences.* BMC Bioinformatics, 2019. **20**(1): p. 723.
-10. Rives, A., et al., *Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences.* Proceedings of the National Academy of Sciences, 2021. **118**(15): p. e2016239118.
+8. Alley, E.C., et al., Unified rational protein engineering with sequence-based deep representation learning. Nature Methods, 2019. **16**(12): p. 1315-1322.
+9. Heinzinger, M., et al., Modeling aspects of the language of life through transfer-learning protein sequences. BMC Bioinformatics, 2019. **20**(1): p. 723.
+10. Rives, A., et al., Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. Proceedings of the National Academy of Sciences, 2021. **118**(15): p. e2016239118.
 
