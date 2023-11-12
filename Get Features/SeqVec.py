@@ -3,7 +3,7 @@
 import numpy as np
 import pandas as pd
 
-data = np.load("yaoyao-11/Seq-RBPpred/data/train_RBPs_4243_embeddings.npz") 
+data = np.load("yaoyao-11/Seq-RBPpred/data/EuRBPDB_PDB_Data/train_RBPs_4243_embeddings.npz") 
 features_names=[]
 features=[]
 for test in list(data.items()):
@@ -14,4 +14,4 @@ columns_name=[]
 for i in range(len(features[0])):
     columns_name.append("features_{}".format(i))
 need_data=pd.DataFrame(columns=columns_name,index=features_names,data=features)
-need_data.to_csv('D:/seqvec/result/train_RBPs_4243_features.csv',encoding='gbk')
+need_data.to_csv('./train_RBPs_4243_features.csv',encoding='gbk')
