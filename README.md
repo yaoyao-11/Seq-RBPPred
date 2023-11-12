@@ -1,7 +1,8 @@
 Seq-RBPPred
 
 RNA-binding proteins (RBPs) can interact with RNAs to regulate RNA translation, modification, splicing, and other important biological processes. The accurate identification of RBPs is of paramount importance for gaining insights into the intricate mechanisms underlying organismal life activities. Traditional experimental methods to predict RBPs need to invest a lot of time and money, so it is important to develop computational methods to predict RBPs. However, the existing approaches for RBP prediction still require further improvement due to the unidentified RBPs in many species. In this study, we present Seq-RBPPred (Predicting RNA-binding proteins from Sequences), a novel method that utilizes a comprehensive feature representation encompassing both biophysical properties and hidden-state features derived from protein sequences. In the results, comprehensive performance evaluations of Seq-RBPPred its superiority compare with state-of-the-art methods.
-![1699774081274](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\1699774081274.png)
+![image](https://github.com/yaoyao-11/Seq-RBPPred/assets/84023156/95a74c0f-6b99-4394-9109-ac8ec6508948)
+
 
 We develop a machine learning model called Seq-RBPPred, mainly using XGBoost[1] train 6944 features. We have two data sets. one is Deep-RBPPred[2],we call it training data set 1, and the other is a merged dataset, which combines data from Deep-RBPPred and the same species in EuRBPDB[3] and PDB[4], we call it traning data set 2. Seq-RBPPred mainly uses traning data set 2.
 
