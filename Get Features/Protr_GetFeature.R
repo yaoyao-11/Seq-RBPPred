@@ -5,8 +5,8 @@
 library(protr)
 library(magrittr)
 # setwd("./")
-setwd="./Data/"
-N_file="/nonRBP7093.fasta"
+setwd="./data/"
+N_file="Deep_RBPpred/nonRBP7093.fasta"
 # N_file="train Non-RBPs_1043.fasta"
 
 
@@ -84,7 +84,7 @@ for (i in 1:nrow(data_no_X_d)) {
 }
 
 aaOut.out=aaOut.o[-1,]
-write.csv(aaOut.out,"H:/??????/DeepRBPpred/Protr/train_N_AAC.csv")
+write.csv(aaOut.out,"/train_N_AAC.csv")
 # write.csv(aaOut.out,"./train_N_AAC.csv")
 
 ## extractPAAC
@@ -183,7 +183,7 @@ for (i in 1:nrow(data_no_X_d)) {
 }
 
 aaOut.out=aaOut.o[-1,]
-write.csv(aaOut.out,"H:/??????/DeepRBPpred/Protr/train_N_PAAC.csv")
+write.csv(aaOut.out,"./train_N_PAAC.csv")
 # write.csv(aaOut.out,"./train_N_PAAC.csv")
 
 ## extractCTDC
@@ -246,7 +246,7 @@ for (i in 1:nrow(data_no_X_d)) {
 }
 
 aaOut.out=aaOut.o[-1,]
-write.csv(aaOut.out,"H:/??????/DeepRBPpred/Protr/train_N_CTDC.csv")
+write.csv(aaOut.out,"./train_N_CTDC.csv")
 # write.csv(aaOut.out,"./train_N_CTDC.csv")
 
 ## extractCTDT
@@ -368,5 +368,5 @@ for (i in 1:nrow(data_no_X_d)) {
 }
 
 aaOut.out=aaOut.o[-1,]
-write.csv(aaOut.out,"H:/??????/DeepRBPpred/Protr/train_N_CTDD.csv")
+write.csv(aaOut.out,"./train_N_CTDD.csv")
 # write.csv(aaOut.out,"./train_N_CTDD.csv")
