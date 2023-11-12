@@ -21,7 +21,9 @@ We develop a machine learning model called Seq-RBPPred, mainly using XGBoost[1] 
 # Usage
 
 1. Data has our training test and testing test.
-2. You can use DeepRBPPred,Deep_forest,DmLab,Random_forest,SVM and Seq-RBPPred to train model and predict RBPs.
+2. You can use Seq-RBPPred to predict RBPs.
+   model=pickle.load("./Seq-RBPPred/model.pickle.dat")
+   y_test_pred = model.predict(test_x)
 
 # Contact
 
