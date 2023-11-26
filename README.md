@@ -25,12 +25,15 @@ Build training and testing sets: (A)Flowchart for building training and testing 
 
 2. You can use Seq-RBPPred to predict RBPs.
 
-3. python ./Seq-RBPPred/Seq-RBPPred.py --train_file ./data/training_set_2.csv
-   python ./Seq-RBPPred/Seq-RBPPred.py --test_file ./data/independent_test.csv
+3. Train the XGBoost model for Seq-RBPPred: python ./Seq-RBPPred/Seq-RBPPred.py --train_file ./data/training_set_2.csv
+   
+   Test the XGBoost model on independent data for Seq-RBPPred: python ./Seq-RBPPred/Seq-RBPPred.py --test_file ./data/independent_test.csv
 
-4. You can also use:
+5. Predict your data:
    model=pickle.load("./Seq-RBPPred/model.pickle.dat")
+   
    y_test_pred = model.predict(test_x)
+   
    test_x is your data, you get test_x by using ./Get Features to get 6944 features for each protein.
 
 # Contact
