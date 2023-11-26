@@ -14,7 +14,7 @@
 
      The methods from the DeepRBPPred can be employed to make predictions on the independent_test data.
 
-   - Deep_forest, DmLab, Random Forest, SVM, Seq-RBPPred
+   - Deep Forest, DmLab, Random Forest, SVM, Seq-RBPPred
 
      Datasets 1 and 2 can be utilized for training to create two distinct models. These models can then be applied to make predictions on the independent_test data. The corresponding codes for each method are located in the respective folders: Deep_forest, DmLab, Random_forest, SVM, Seq-RBPPred.
 
