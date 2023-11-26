@@ -25,9 +25,11 @@ Build training and testing sets: (A)Flowchart for building training and testing 
 
 2. You can use Seq-RBPPred to predict RBPs.
 
-3. Train the XGBoost model for Seq-RBPPred: python ./Seq-RBPPred/Seq-RBPPred.py --train_file ./data/training_set_2.csv
+3. Train the XGBoost model for Seq-RBPPred:
+   python ./Seq-RBPPred/Seq-RBPPred.py --train_file ./data/training_set_2.csv
    
-   Test the XGBoost model on independent data: python ./Seq-RBPPred/Seq-RBPPred.py --test_file ./data/independent_test.csv
+   Test the XGBoost model on independent data:
+   python ./Seq-RBPPred/Seq-RBPPred.py --test_file ./data/independent_test.csv
 
 5. Predict your data:
    model=pickle.load("./Seq-RBPPred/model.pickle.dat")
