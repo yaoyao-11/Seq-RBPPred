@@ -40,7 +40,7 @@ Build training and testing sets: (A)Flowchart for building training and testing 
 
 # Contact
 
-Contact: YuYao Yan(18853818507@163.com)
+Contact: YuYao Yan (18853818507@163.com)
 
 # References
 
